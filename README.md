@@ -1,4 +1,4 @@
-# Data-Cooker admin client
+# Data-Cooker Admin Client
 
 ## Setup  development environment from boilerplate
 
