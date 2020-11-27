@@ -21,7 +21,7 @@ export const TargetShow = props => (
             <NumberField source="groupByFlexible" />
             <TextField source="aggregateColumns" />
             <TextField source="aggregateFunctions" />
-            <TextField source="suppoetSpVersions" />
+            <TextField source="supportSpVersions" />
             {/* <ReferenceField source="permissionId" reference="permissions"><TextField source="id" /></ReferenceField> */}
         </SimpleShowLayout>
     </Show>

@@ -21,7 +21,7 @@ export const TargetCreate = props => (
             <NumberInput source="groupByFlexible" />
             <TextInput source="aggregateColumns" />
             <TextInput source="aggregateFunctions" />
-            <TextInput source="suppoetSpVersions" />
+            <TextInput source="supportSpVersions" />
             {/* <ReferenceInput source="permissionId" reference="permissions"><SelectInput optionText="id" /></ReferenceInput> */}
         </SimpleForm>
     </Create>
