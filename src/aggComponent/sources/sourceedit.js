@@ -17,6 +17,8 @@ export const SourceEdit = props => (
             <TextInput source="transformation" />
             {/* <ReferenceInput source="permissionId" reference="permissions"><SelectInput optionText="id" /></ReferenceInput> */}
             {/* <TextInput source="target" /> */}
+			{/* <NumberInput source="feature.id" /> */}
+			{/* <NumberInput source="target.id" /> */}
         </SimpleForm>
     </Edit>
 );
