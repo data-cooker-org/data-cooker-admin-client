@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Create, SimpleForm, TextInput, NumberInput, ReferenceInput, SelectInput} from 'react-admin';
+import { Create, SimpleForm, TextInput, NumberInput, BooleanInput, ReferenceInput, SelectInput} from 'react-admin';
 
 export const TaskCreate = props => (
     <Create {...props}>
@@ -11,7 +11,7 @@ export const TaskCreate = props => (
             <TextInput source="taskDescription" />
             <TextInput source="taskWorker" />
             {/* <TextInput source="taskStatus" /> */}
-            <TextInput source="stopOnError" />
+            <BooleanInput source="stopOnError" />
             {/* <TextInput source="lastScheduledTime" /> */}
             {/* <TextInput source="lastCompleteTime" /> */}
             {/* <ReferenceInput source="permissionId" reference="permissions"><SelectInput optionText="id" /></ReferenceInput> */}

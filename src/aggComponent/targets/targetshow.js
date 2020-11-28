@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Show, SimpleShowLayout, TextField, ReferenceField, NumberField } from 'react-admin';
+import { Show, SimpleShowLayout, TextField, BooleanField, NumberField } from 'react-admin';
 
 export const TargetShow = props => (
     <Show {...props}>
@@ -18,7 +18,7 @@ export const TargetShow = props => (
             <TextField source="patternColumns" />
             <TextField source="groupByColumns" />
             <NumberField source="groupByPattern" />
-            <NumberField source="groupByFlexible" />
+            <BooleanField source="groupByFlexible" />
             <TextField source="aggregateColumns" />
             <TextField source="aggregateFunctions" />
             <TextField source="supportSpVersions" />
