@@ -1,15 +1,15 @@
 import * as React from "react";
-import { Edit, SimpleForm, TextInput, NumberInput, ReferenceInput, SelectInput, DateInput } from 'react-admin';
+import { Edit, SimpleForm, TextInput, NumberField, BooleanInput, ReferenceInput, SelectInput, DateInput } from 'react-admin';
 
 export const JobEdit = props => (
 	<Edit {...props}>
 		<SimpleForm>
-			{/* <NumberInput source="id" /> */}
+			<NumberField source="id" />
 			<TextInput source="jobName" />
 			<TextInput source="jobDescription" />
 			{/* <TextInput source="jobStatus" /> */}
-			<NumberInput source="jobEnabled" />
-			<NumberInput source="repeatSchedule" />
+			<BooleanInput source="jobEnabled" />
+			<BooleanInput source="repeatSchedule" />
 			<TextInput source="scheduleType" />
 			<TextInput source="scheduleCron" />
 			<DateInput source="scheduleBegin" />
