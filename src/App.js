@@ -111,7 +111,7 @@ class App extends Component {
 					<Resource name="targets" options={{ label: 'Aggregation Targets' }} list={TargetList} edit={TargetEdit} create={TargetCreate} show={TargetShow} />,
 					<Resource name="sources" options={{ label: 'Aggregation Sources' }} list={SourceList} edit={SourceEdit} create={SourceCreate} show={SourceShow} />,
 					<Resource name="jobs" options={{ label: 'Scheduled Jobs' }} list={JobList} edit={JobEdit} create={JobCreate} show={ShowGuesser} />,
-					<Resource name="tasks" options={{ label: 'Job Tasks' }} list={TaskList} edit={TaskEdit} create={TaskCreate} show={ShowGuesser} />,
+					<Resource name="tasks" options={{ label: 'Job Tasks' }} list={TaskList} edit={TaskEdit} create={TaskCreate} show={SourceShow} />,
 					<Resource name="avatars" list={AvatarList} show={AvatarShow} />,
 					<Resource name="roles" list={RoleList} show={RoleShow} />,
 					<Resource name="departments" list={DepartmentList} edit={DepartmentEdit} create={DepartmentCreate} show={DepartmentShow} />,

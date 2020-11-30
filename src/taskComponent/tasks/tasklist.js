@@ -28,7 +28,7 @@ export const TaskList = props => {
 					<ReferenceField label="Job name" source="jobId" reference="jobs"><ChipField source="jobName" /></ReferenceField>
 					<NumberField source="jobStep" />
 					{/* <TextField source="taskDescription" /> */}
-					{/* <TextField source="taskWorker" /> */}
+					{/* <TextField source="taskFeatureId" /> */}
 					{/* <TextField source="taskStatus" /> */}
 					<NumberField source="stopOnError" />
 					{/* <TextField source="lastScheduledTime" /> */}
